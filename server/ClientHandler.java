@@ -24,7 +24,7 @@ public class ClientHandler extends Thread {
 	private DataOutputStream out = null;
 
 	// initialise serverFiles obj
-	File serverFiles = new File("serverFiles");
+	private File serverFiles = new File("serverFiles");
 
 	// constructor
 	public ClientHandler(Socket socket) {
